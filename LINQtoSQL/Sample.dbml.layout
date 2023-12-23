@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <DataContextMoniker Name="/SampleDataContext" />
+  <nestedChildShapes>
+    <classShape Id="aee812f0-52ab-40a7-837d-23db096474bc" absoluteBounds="1.5, 1.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SampleDataContext/Department" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aac506bd-c55c-4ed8-a78a-359b0ac86cb8" absoluteBounds="1.5150000000000001, 2.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.19931705603966 : 3.1362939453125); (2.19931705603966 : 3.3862939453125); (2.81500117938702 : 3.3862939453125); (2.81500117938702 : 3.1362939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SampleDataContext/Department/Department_Department" />
+      <nodes>
+        <classShapeMoniker Id="aee812f0-52ab-40a7-837d-23db096474bc" />
+        <classShapeMoniker Id="aee812f0-52ab-40a7-837d-23db096474bc" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="678b3cbb-83cc-46d0-995a-aa7753701aa4" absoluteBounds="4.375, 1.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SampleDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33afe35f-3ef8-417c-bdb4-02c8f66ff0a4" absoluteBounds="4.39, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 2.44314697265625); (4.375 : 2.44314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SampleDataContext/Department/Department_Employee" />
+      <nodes>
+        <classShapeMoniker Id="aee812f0-52ab-40a7-837d-23db096474bc" />
+        <classShapeMoniker Id="678b3cbb-83cc-46d0-995a-aa7753701aa4" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
